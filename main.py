@@ -21,10 +21,10 @@ async def is_prime_number(number):
     if number.isnumeric():
         n = int(number)
 
-        if (number in numbers):
-            if (number > 1):
-                for i in range(2, int(sqrt(number)) + 1):
-                    if (number % i) == 0:
+        if (n in numbers):
+            if (n > 1):
+                for i in range(2, int(sqrt(n)) + 1):
+                    if (n % i) == 0:
                         flag = 1
 
                 if (flag == 0):
