@@ -28,15 +28,15 @@ async def is_prime_number(number):
                         flag = 1
 
                 if (flag == 0):
-                    return f'Number {number} is a prime number'
+                    return f'Number {n} is a prime number'
                 else:
-                    return f'Number {number} is not a prime number'
+                    return f'Number {n} is not a prime number'
 
             else:
-                return f'Number {number} is not a prime number'
+                return f'Number {n} is not a prime number'
 
         else:
-            return f'A number {number} is not in the range of 1 to 9223372036854775807'
+            return f'A number {n} is not in the range of 1 to 9223372036854775807'
 
     else:
         return f'The entered variable is not a number'
